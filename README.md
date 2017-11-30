@@ -1,1 +1,1 @@
-### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/blank) repo! :point_left:
+### :point_right:A app for looking up meaning of words using oxford dictionary api (https://developer.oxforddictionaries.com) repo! :point_left:
