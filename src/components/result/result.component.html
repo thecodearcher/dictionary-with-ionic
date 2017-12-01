@@ -1,0 +1,11 @@
+<ion-card> 
+  <ion-card-header text-wrap>
+   <h2><b>{{results?.definitions}}</b></h2>
+  </ion-card-header>
+  <ion-card-content text-wrap>
+    <h3>Examples</h3>
+    <ion-item *ngFor="let example of results.examples" >
+    <p >{{example.text | lowercase}}.</p>   
+      </ion-item>
+  </ion-card-content>
+</ion-card>

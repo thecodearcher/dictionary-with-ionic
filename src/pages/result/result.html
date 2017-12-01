@@ -1,0 +1,13 @@
+
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>{{search_word | uppercase}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<app-result *ngFor="let res of results" [results]='res'  ></app-result>
+</ion-content>
